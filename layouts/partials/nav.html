@@ -1,0 +1,8 @@
+<!-- <a href="{{ "" | relURL }}">Home</a> -->
+{{ range .Site.Menus.main }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}
+{{ with .Site.GetPage "/wiki" }}
+<a href="{{ "wiki" | relURL }}">Wiki</a>
+{{ end }}
+<a href="https://registry.jsonresume.org/kjzweerts">Resume</a>

@@ -1,0 +1,15 @@
+baseURL = 'https://zweerts.xyz/'
+languageCode = 'en-us'
+title = 'ZWEERTS.xyz'
+author = 'Koen Zweerts'
+copyright = 'Copyright © 2023, ZWEERTS.xyz.'
+
+[taxonomies]
+  wiki = 'wikis'
+  tag = 'tags'
+
+[permalinks]
+  wikis = '/wiki/:slug'
+
+[params]
+  favicon = ''
