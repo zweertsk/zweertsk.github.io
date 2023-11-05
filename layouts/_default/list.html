@@ -1,39 +1,19 @@
 {{ define "main" }}
-<content>
-  {{ if .Data.Singular }}
-  <h3>Publications for "{{ .Title }}"</h3>
-  <small>
-    <a href="{{ "wiki" | relURL }}">Remove filter</a>
-  </small>
-  {{ end }}
-  {{ if .Data.Singular }}
-  {{else}}
-  <small>
-  <span>
-      Publications filter:
-  </span>
-    {{ range .Site.Taxonomies.wikis }}
-    <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
-    {{ end }}
-  </small>
-  {{ end }}
+<article>
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Content }}</p>
   <ul>
     {{ range .Pages }}
     <li>
-      <span>
-        <i>
-          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-          </time>
-        </i>
-      </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <i>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </i>
     </li>
     {{ else }}
     <li>
-      No wiki's yet
+      No publications yet
     </li>
     {{ end }}
   </ul>
-</content>
+</article>
 {{ end }}

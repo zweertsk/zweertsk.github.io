@@ -1,15 +1,9 @@
 baseURL = 'https://zweerts.xyz/'
-languageCode = 'en-us'
+languageCode = 'en-US'
 title = 'ZWEERTS.xyz'
 author = 'Koen Zweerts'
-copyright = 'Copyright, ZWEERTS.xyz'
 
-[taxonomies]
-  wiki = 'wikis'
-  tag = 'tags'
+disableKinds = ['taxonomy', 'term']
 
 [params]
   favicon = ''
-  [params.author]
-    email = 'koen@zweerts.xyz'
-    name = 'Koen Zweerts'

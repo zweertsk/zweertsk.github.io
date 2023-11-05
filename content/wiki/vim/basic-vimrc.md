@@ -1,10 +1,11 @@
 +++
 title = 'Basic Vimrc'
+summary = 'Minimal config with most important vim settings'
 date = 2023-11-01T16:42:19+01:00
-wikis = ['Vim']
+draft = false
 +++
 
-```lua
+```
 syntax on
 filetype plugin indent on
 
@@ -16,7 +17,7 @@ set wildignore=*.exe,*.dll,*.pdb,*/node_modules/*
 set hidden
 
 set spell
-set is
+set incsearch
 
 set ignorecase
 set smartcase
