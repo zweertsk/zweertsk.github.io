@@ -2,14 +2,14 @@ baseURL = 'https://zweerts.xyz/'
 languageCode = 'en-us'
 title = 'ZWEERTS.xyz'
 author = 'Koen Zweerts'
-copyright = 'Copyright © 2023, ZWEERTS.xyz.'
+copyright = 'Copyright, ZWEERTS.xyz'
 
 [taxonomies]
   wiki = 'wikis'
   tag = 'tags'
 
-[permalinks]
-  wikis = '/wiki/:slug'
-
 [params]
   favicon = ''
+  [params.author]
+    email = 'koen@zweerts.xyz'
+    name = 'Koen Zweerts'

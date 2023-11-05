@@ -1,7 +1,6 @@
 +++
 title = 'Basic Vimrc'
 date = 2023-11-01T16:42:19+01:00
-draft = true
 wikis = ['Vim']
 +++
 

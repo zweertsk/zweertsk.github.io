@@ -1,9 +1,20 @@
 {{ define "main" }}
 <content>
   {{ if .Data.Singular }}
-  <h3>Filtering for "{{ .Title }}"</h3>
+  <h3>Publications for "{{ .Title }}"</h3>
   <small>
     <a href="{{ "wiki" | relURL }}">Remove filter</a>
+  </small>
+  {{ end }}
+  {{ if .Data.Singular }}
+  {{else}}
+  <small>
+  <span>
+      Publications filter:
+  </span>
+    {{ range .Site.Taxonomies.wikis }}
+    <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+    {{ end }}
   </small>
   {{ end }}
   <ul>
@@ -24,13 +35,5 @@
     </li>
     {{ end }}
   </ul>
-  {{ if .Data.Singular }}
-  {{else}}
-  <small>
-    {{ range .Site.Taxonomies.wikis }}
-    <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
-    {{ end }}
-  </small>
-  {{ end }}
 </content>
 {{ end }}

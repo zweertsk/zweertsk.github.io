@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://zweerts.xyz/about/</loc>
+    <lastmod>2023-11-01T20:36:00+01:00</lastmod>
+  </url><url>
+    <loc>https://zweerts.xyz/</loc>
+    <lastmod>2023-11-01T17:02:51+01:00</lastmod>
+  </url><url>
+    <loc>https://zweerts.xyz/wiki/bash/</loc>
+    <lastmod>2023-11-01T17:02:51+01:00</lastmod>
+  </url><url>
+    <loc>https://zweerts.xyz/wiki/bash/recursive-mutation/</loc>
+    <lastmod>2023-11-01T17:02:51+01:00</lastmod>
+  </url><url>
+    <loc>https://zweerts.xyz/wiki/</loc>
+    <lastmod>2023-11-01T17:02:51+01:00</lastmod>
+  </url><url>
+    <loc>https://zweerts.xyz/wikis/</loc>
+    <lastmod>2023-11-01T17:02:51+01:00</lastmod>
+  </url><url>
+    <loc>https://zweerts.xyz/wiki/vim/basic-vimrc/</loc>
+    <lastmod>2023-11-01T16:42:19+01:00</lastmod>
+  </url><url>
+    <loc>https://zweerts.xyz/wiki/vim/</loc>
+    <lastmod>2023-11-01T16:42:19+01:00</lastmod>
+  </url><url>
+    <loc>https://zweerts.xyz/tags/</loc>
+  </url>
+</urlset>

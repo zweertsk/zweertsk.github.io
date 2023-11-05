@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZWEERTS.xyz</title>
+    <link>https://zweerts.xyz/</link>
+    <description>Recent content on ZWEERTS.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, ZWEERTS.xyz.</copyright>
+    <lastBuildDate>Wed, 01 Nov 2023 17:02:51 +0100</lastBuildDate>
+    <atom:link href="https://zweerts.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://zweerts.xyz/about/</link>
+      <pubDate>Wed, 01 Nov 2023 20:36:00 +0100</pubDate>
+      <guid>https://zweerts.xyz/about/</guid>
+      <description>About page</description>
+    </item>
+    <item>
+      <title>Recursive Mutation</title>
+      <link>https://zweerts.xyz/wiki/bash/recursive-mutation/</link>
+      <pubDate>Wed, 01 Nov 2023 17:02:51 +0100</pubDate>
+      <guid>https://zweerts.xyz/wiki/bash/recursive-mutation/</guid>
+      <description>For each file, make a directory with title from file and move the file in that new directory.
+for f in *.*; do [ -f &amp;#34;$f&amp;#34; ] || continue; mkdir &amp;#34;${f%.*}&amp;#34; &amp;amp;&amp;amp; mv &amp;#34;$f&amp;#34; &amp;#34;${f%.*}&amp;#34;; done </description>
+    </item>
+    <item>
+      <title>Basic Vimrc</title>
+      <link>https://zweerts.xyz/wiki/vim/basic-vimrc/</link>
+      <pubDate>Wed, 01 Nov 2023 16:42:19 +0100</pubDate>
+      <guid>https://zweerts.xyz/wiki/vim/basic-vimrc/</guid>
+      <description>syntax on filetype plugin indent on set relativenumber set wildmenu set wildignore=*.exe,*.dll,*.pdb,*/node_modules/* set hidden set spell set is set ignorecase set smartcase set cursorline set ruler set tabstop=4 set shiftwidth=4 set expandtab </description>
+    </item>
+  </channel>
+</rss>

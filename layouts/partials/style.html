@@ -1,4 +1,16 @@
 <style>
+  .breadcrumb ol {
+    padding-left: 0;
+  }
+
+  .breadcrumb li {
+    display: inline;
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    content: "»";
+  }
+
   code {
     padding: 2px 5px;
     background-color: #f2f2f2;
