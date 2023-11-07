@@ -2,8 +2,10 @@ baseURL = 'https://zweerts.xyz'
 title = 'ZWEERTS.xyz'
 author = 'Koen Zweerts'
 languageCode = 'en-US'
-
+copyright = 'Take what you need.'
+enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  favicon = ''
+  [params.author]
+    name = 'Koen Zweerts'

@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<!doctype html>
+<html class="no-js" lang="{{ .Site.LanguageCode }}">
 
 <head>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ .Site.Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {{ template "_internal/opengraph.html" . }}
+
   {{- partial "favicon.html" . -}}
-  {{- partial "seo_tags.html" . -}}
-  <meta name="referrer" content="no-referrer-when-downgrade" />
-  <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
 
   {{ with .OutputFormats.Get "rss" -}}
   {{ printf `
-  <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
+  <link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+  {{ end }}
+
   {{- partial "style.html" . -}}
 </head>
 
@@ -24,7 +25,7 @@
   <main>
     {{- block "main" . }}{{- end }}
   </main>
-  <hr/>
+  <hr />
   <footer>
     {{- partial "footer.html" . -}}
   </footer>
