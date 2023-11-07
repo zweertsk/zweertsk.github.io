@@ -1,7 +1,7 @@
-baseURL = 'https://zweerts.xyz/'
-languageCode = 'en-US'
+baseURL = 'https://zweerts.xyz'
 title = 'ZWEERTS.xyz'
 author = 'Koen Zweerts'
+languageCode = 'en-US'
 
 disableKinds = ['taxonomy', 'term']
 
