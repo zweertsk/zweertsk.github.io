@@ -6,8 +6,6 @@ draft = false
 +++
 
 ```nginx
-# example.com/~user
-
 server {
     listen 80;
     listen [::]:80;
@@ -25,8 +23,6 @@ server {
 }
 ```
 ```nginx
-
-
 server {
     listen 80;
     listen [::]:80;
