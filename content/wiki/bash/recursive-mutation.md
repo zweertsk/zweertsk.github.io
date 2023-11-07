@@ -1,6 +1,6 @@
 +++
-title = 'Recursive Mutation'
-summary = 'Batch file to own folder processing'
+title = 'Recursive mutation'
+summary = 'Batch job for file to own folder processing'
 date = 2023-11-01T17:02:51+01:00
 draft = false
 +++
