@@ -1,5 +1,5 @@
 +++
-title = 'Basic Vimrc'
+title = 'Basic vimrc'
 summary = 'Minimal config with most important vim settings'
 date = 2023-11-01T16:42:19+01:00
 draft = false
