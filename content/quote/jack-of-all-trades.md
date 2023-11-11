@@ -1,7 +1,7 @@
 +++
 title = 'Jack of all trades'
 date = 2023-11-11T12:06:45+01:00
-draft = true
+draft = false
 +++
 ## What makes a pragmatic programmer?
 > “You try hard to be familiar with a broad
